@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/request-approval/static/css/main.e7ffbc45.chunk.css",
+    "main.js": "/request-approval/static/js/main.b09ae346.chunk.js",
+    "main.js.map": "/request-approval/static/js/main.b09ae346.chunk.js.map",
+    "runtime-main.js": "/request-approval/static/js/runtime-main.3304abc1.js",
+    "runtime-main.js.map": "/request-approval/static/js/runtime-main.3304abc1.js.map",
+    "static/js/2.d6bd7c2a.chunk.js": "/request-approval/static/js/2.d6bd7c2a.chunk.js",
+    "static/js/2.d6bd7c2a.chunk.js.map": "/request-approval/static/js/2.d6bd7c2a.chunk.js.map",
+    "index.html": "/request-approval/index.html",
+    "precache-manifest.7e0749d1a37ef32a5fdee9074cebd362.js": "/request-approval/precache-manifest.7e0749d1a37ef32a5fdee9074cebd362.js",
+    "service-worker.js": "/request-approval/service-worker.js",
+    "static/css/main.e7ffbc45.chunk.css.map": "/request-approval/static/css/main.e7ffbc45.chunk.css.map",
+    "static/js/2.d6bd7c2a.chunk.js.LICENSE": "/request-approval/static/js/2.d6bd7c2a.chunk.js.LICENSE",
+    "static/media/checkmark.svg": "/request-approval/static/media/checkmark.77e68f41.svg",
+    "static/media/excel.svg": "/request-approval/static/media/excel.a4c68d0b.svg",
+    "static/media/logo.svg": "/request-approval/static/media/logo.50d3d4c5.svg",
+    "static/media/padlock.svg": "/request-approval/static/media/padlock.cd9e5347.svg",
+    "static/media/uncheck.svg": "/request-approval/static/media/uncheck.a8f32703.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3304abc1.js",
+    "static/js/2.d6bd7c2a.chunk.js",
+    "static/css/main.e7ffbc45.chunk.css",
+    "static/js/main.b09ae346.chunk.js"
+  ]
+}
