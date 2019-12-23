@@ -1,0 +1,22 @@
+@value colors: "../../../colors.css";
+@value grey, orange from colors;
+
+.note {
+  margin: 0 16px;
+}
+
+.text {
+  font-size: 12px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.description {
+  composes: text;
+  color: orange;
+}
+
+.owner {
+  composes: text;
+  color: grey;
+}

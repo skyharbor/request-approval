@@ -1,0 +1,56 @@
+@value colors: "../../colors.css";
+@value lightGrey, bgGrey, white from colors;
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  grid-template-areas:
+  "header header"
+  "requestArea approversArea"
+  "controlsArea approversArea";
+  width: 100%;
+  background: white;
+  border-radius: 8px;
+}
+
+.header {
+  grid-area: header;
+}
+
+.requestArea {
+  grid-area: requestArea;
+}
+
+.approversArea {
+  grid-area: approversArea;
+  border-left: 1px solid lightGrey;
+}
+
+.controlsArea {
+  grid-area: controlsArea;
+}
+
+@media only screen and (max-width: 850px) {
+  .wrapper {
+    grid-template-areas:
+    "header header"
+    "requestArea requestArea"
+    "approversArea approversArea"
+    "controlsArea controlsArea";
+    border-radius: 0;
+  }
+
+  .requestArea {
+    padding-bottom: 25px;
+  }
+
+  .approversArea {
+    border-left: none;
+    border-top: 5px solid bgGrey;
+    border-bottom: 1px solid lightGrey;;
+  }
+
+  .controlsArea {
+    background: bgGrey;
+  }
+}

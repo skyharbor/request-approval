@@ -1,0 +1,9 @@
+@value grey: rgba(34, 34, 34, 0.5);
+@value lightGrey: rgba(34, 34, 34, 0.05);
+@value circleGrey: rgba(34, 34, 34, 0.1);
+@value bgGrey: #F2F2F2;
+
+@value white: #FFFFFF;
+@value black: #222222;
+@value green: #26C281;
+@value orange: #FF6448;

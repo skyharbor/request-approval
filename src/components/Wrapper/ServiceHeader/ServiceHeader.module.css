@@ -1,0 +1,39 @@
+@value colors: "../../../colors.css";
+@value lightGrey, circleGrey from colors;
+
+.serviceHeader {
+  display: flex;
+  align-items: center;
+  padding: 16px 16px 12px;
+  border-bottom: 1px solid lightGrey;
+}
+
+.logo {
+  width: 32px;
+  height: 32px;
+  margin-right: 12px;
+  border-radius: 4px;
+  box-shadow: 0px 2px 10px circleGrey;
+}
+
+.text {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0;
+}
+
+@media only screen and (max-width: 850px) {
+  .text {
+    font-size: 14px;
+  }
+
+  .logo {
+    width: 24px;
+    height: 24px;
+  }
+
+  .serviceHeader {
+    border: none;
+    padding: 16px 16px 0;
+  }
+}

@@ -1,0 +1,74 @@
+@value colors: "../../../colors.css";
+@value grey, lightGrey, circleGrey from colors;
+
+.avatar {
+  width: 24px;
+  height: 24px;
+  padding: 0 4px 0 8px;
+}
+
+.entry {
+  display: flex;
+  align-items: center;
+  margin-top: 16px;
+}
+
+.textGrey {
+  color: grey;
+}
+
+.name {
+  padding-right: 4px;
+}
+
+.email {
+  composes: textGrey;
+  font-size: 12px;
+}
+
+.date {
+  composes: textGrey;
+  font-size: 12px;
+  padding: 0 4px;
+}
+
+.statusBlock {
+  padding: 16px;
+  border-spacing: 0 16px;
+}
+
+.statusBlock + .statusBlock {
+  border-top: 1px solid lightGrey;
+}
+
+.nameBlock {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.checkmark {
+  margin-left: auto;
+}
+
+.status {
+  composes: textGrey;
+  font-size: 12px;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+
+.index {
+  composes: textGrey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  background: circleGrey;
+  border-radius: 100%;
+  text-align: center;
+  width: 16px;
+  height: 16px;
+  font-size: 12px;
+  line-height: 16px;
+}

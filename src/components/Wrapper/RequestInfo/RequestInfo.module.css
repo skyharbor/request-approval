@@ -1,0 +1,51 @@
+@value colors: "../../../colors.css";
+@value grey, lightGrey from colors;
+
+.requestInfo {
+  border: 1px solid lightGrey;
+  box-shadow: 0px 2px 4px lightGrey;
+  border-radius: 8px;
+  margin: 16px;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 1.5fr 3fr;
+  align-items: center;
+  padding: 12px 16px;
+}
+
+.row + .row {
+  border-top: 1px solid lightGrey;
+}
+
+.profilePicture {
+  width: 24px;
+}
+
+.title {
+  font-size: 14px;
+  line-height: 16px;
+  color: grey;
+  font-weight: 500;
+}
+
+.value {
+  display: flex;
+  align-items: center;
+}
+
+.profilePicture {
+  margin-right: 8px;
+  width: 24px;
+}
+
+.rowMultipleCols {
+  composes: row;
+  grid-template-columns: 1.5fr .75fr 1.5fr .75fr;
+}
+
+.fileIcon {
+  margin-right: 8px;
+  width: 16px;
+}

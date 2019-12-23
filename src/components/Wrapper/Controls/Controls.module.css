@@ -1,0 +1,37 @@
+@value colors: "../../../colors.css";
+@value white, green, orange, circleGrey from colors;
+
+.controls {
+  padding: 16px;
+}
+
+.button {
+  border-radius: 8px;
+  padding: 8px 16px;
+  border: 1px solid circleGrey;
+  box-sizing: border-box;
+  color: white;
+  font-size: 14px;
+  line-height: 16px;
+  outline: 0;
+  cursor: pointer;
+}
+
+.approve {
+  composes: button;
+  background: green;
+  margin-right: 8px;
+}
+
+.deny {
+  composes: button;
+  background: orange;
+}
+
+@media only screen and (max-width: 850px) {
+  .controls {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 8px;
+  }
+}

@@ -1,0 +1,17 @@
+@value colors: "../../colors.css";
+@value grey, orange from colors;
+
+.message {
+  font-size: 12px;
+  font-weight: 500;
+  margin: 25px 0 16px;
+}
+
+.messageType {
+  color: orange;
+  margin: 0 8px 0 4px;
+}
+
+.messageText {
+  color: grey;
+}
